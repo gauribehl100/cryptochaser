@@ -1,7 +1,7 @@
 import { Container, Typography, styled } from '@mui/material';
 import Carousel from './Carousel';
 
-// Styles using MUI v5 styled utility
+
 const Banner = styled('div')(({ theme }) => ({
   backgroundImage: 'url(./banner2.jpg)',
   backgroundSize: 'cover', // Ensures the background image covers the entire element
