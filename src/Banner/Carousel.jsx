@@ -18,10 +18,10 @@ const Carousel = () => {
 
   useEffect(() => {
     fetchTrendingCoins();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+   
   }, [currency]);
 
-  // Styled components using Material UI v5
+  // Styled components using Material UI 
   const CarouselContainer = styled("div")({
     height: "50%",
     display: "flex",
