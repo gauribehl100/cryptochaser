@@ -122,7 +122,7 @@ console.log(coin)
                   .toString()
                   .slice(0, -6)
               )}
-              M
+              
             </Typography>
           </span>
         </MarketData>
