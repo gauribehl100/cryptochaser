@@ -1,7 +1,7 @@
 import { styled } from "@mui/material/styles";
 
 const SelectButton = ({ children, selected, onClick }) => {
-  // Styled component using Material UI v5 `styled` API
+
   const StyledButton = styled("span")(({ selected }) => ({
     border: "1px solid gold",
     borderRadius: 5,
