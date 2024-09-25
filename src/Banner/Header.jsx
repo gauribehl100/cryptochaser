@@ -33,7 +33,7 @@ import {
   
   function Header() {
     const { currency, setCurrency } = CryptoState();
-    const navigate = useNavigate(); // useHistory is replaced with useNavigate in React Router v6
+    const navigate = useNavigate();
   
     return (
       <ThemeProvider theme={darkTheme}>
